@@ -1,4 +1,4 @@
-**[WIP, early development stage]**
+**[WIP, This library is currently under heavy development and isn't ready for production]**
 
 ## Usage
 
@@ -55,8 +55,8 @@ main() async {
 
 ## Roadmap to v0.1
 
-- [ ] UPnP
-- [ ] NAT-PMP
+- <input type="checkbox" /> UPnP
+- <input type="checkbox" /> NAT-PMP
 
 ## Experimental tracker server
 
@@ -66,7 +66,7 @@ main() async {
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: http://example.com/issues/replaceme
+[tracker]: https://github.com/xtyxtyx/torrent/issues
 
 ## Lisence
 
