@@ -1,6 +1,6 @@
 name: torrent
 description: Bittorrent library inplemented in pure Dart.
-version: 0.0.1+1
+version: 0.0.2
 homepage: https://github.com/xtyxtyx/torrent
 author: xuty <root@xuty.tk>
 
