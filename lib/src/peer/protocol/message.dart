@@ -1,8 +1,8 @@
 import 'dart:typed_data';
 
-import 'package:torrent/src/hash.dart';
+// import 'package:torrent/src/hash.dart';
 import 'package:torrent/src/peer/protocol/exception.dart';
-import 'package:torrent/src/peer/protocol/reserved.dart';
+// import 'package:torrent/src/peer/protocol/reserved.dart';
 
 abstract class Message {
   List<int> encode();

@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:torrent/src/announce/bt_announce.dart';
 import 'package:torrent/src/bt_logger.dart';
 import 'package:torrent/src/peer/bt_pex.dart';
 import 'package:torrent/src/torrent/bt_torrent.dart';
