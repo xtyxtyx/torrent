@@ -39,11 +39,11 @@ main() async {
 
 ### Partially implemented
 
+- [BEP-5](http://bittorrent.org/beps/bep_0005.html)
 - [BEP-6](http://bittorrent.org/beps/bep_0006.html)
 
 ### Planned
 
-- [BEP-5](http://bittorrent.org/beps/bep_0005.html)
 - [BEP-9](http://bittorrent.org/beps/bep_0009.html)
 - [BEP-10](http://bittorrent.org/beps/bep_0010.html)
 - [BEP-11](http://bittorrent.org/beps/bep_0011.html)
