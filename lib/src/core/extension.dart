@@ -19,8 +19,8 @@ extension NullAssert on Object {
 }
 
 extension ByteExt on Uint8List {
-  Uint8List view([int offsetInBytes = 0, int length]) {
-    return Uint8List.view(this.buffer, offsetInBytes, length);
+  Uint8List slice([int offsetInBytes = 0, int length]) {
+    return this.buffer.asUint8List(offsetInBytes, length);
   }
 
   String asHex() {

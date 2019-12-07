@@ -9,8 +9,8 @@ class NodeInfo {
   NodeInfo(this.id, this.addr);
 
   static NodeInfo parseCompact(Uint8List compact) {
-    final id = compact.view(0, 20);
-    final ip = decodeIpv4(compact.view(20, 24));
+    final id = compact.slice(0, 20);
+    final ip = decodeIpv4(compact.slice(20, 24));
     final bytes = compact.asUint8List().buffer.asByteData();
     final port = bytes.getUint16(24);
     return NodeInfo(id, NodeAddr(InternetAddress(ip), port));
@@ -25,8 +25,8 @@ class NodeInfo {
     for (var i = 0; i < compact.length ~/ bytesPerNode; i++) {
       final offset = i * 26;
       print(offset);
-      final id = compact.view(offset, 20);
-      final ip = decodeIpv4(compact.view(offset + 20, 4));
+      final id = compact.slice(offset, 20);
+      final ip = decodeIpv4(compact.slice(offset + 20, 4));
       final bytes = compact.asUint8List().buffer.asByteData();
       final port = bytes.getUint16(offset + 24);
       yield NodeInfo(id, NodeAddr(InternetAddress(ip), port));
